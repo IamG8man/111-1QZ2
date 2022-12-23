@@ -24,7 +24,9 @@
 
 ```csharp
 public void mt_getResult(){
-    ...
+    1b_Msg.Text = "Page_ Load";
+            protected System.Void btn_Submit_Click(System.Object sender, System.Ever
+         1b_Msg.Text = "btn_Event";
 }
 ```
 
@@ -43,8 +45,8 @@ public void mt_getResult(){
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <div> <asp:Label ID="1b_Msg" runat="server" Text=""></asp:Label>
+        <div> <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="40px"
     </form>
 </body>
 </html>
